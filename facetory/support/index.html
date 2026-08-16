@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facetory — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --rule: #e3e3e6;
+    --accent: #0a84ff;
+    --panel: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --fg: #f2f2f7;
+      --muted: #9a9aa0;
+      --rule: #2c2c2e;
+      --accent: #4da3ff;
+      --panel: #1c1c1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 3rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .5rem; letter-spacing: -.01em; }
+  p, li { margin: 0 0 1rem; }
+  a { color: var(--accent); }
+  .lede { color: var(--muted); margin-bottom: 2rem; }
+  .contact {
+    background: var(--panel);
+    border-radius: 14px;
+    padding: 1.1rem 1.25rem;
+    margin: 2rem 0 0;
+  }
+  .contact p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Facetory — Support</h1>
+<p class="lede">Facetory turns your photos of the same person over time into a
+face-aligned video you can share.</p>
+
+<div class="contact">
+  <p><strong>Need help?</strong> Email
+  <a href="mailto:cherrystoneplace@gmail.com">cherrystoneplace@gmail.com</a>.
+  Telling us your iPhone model and iOS version usually saves a round trip.</p>
+</div>
+
+<h2>Why does it need my photos?</h2>
+<p>To find faces in them. All of that happens on your iPhone — your photos are
+never uploaded. See the <a href="/facetory/privacy">privacy policy</a> for the
+detail.</p>
+
+<h2>The scan didn't find anyone</h2>
+<p>Facetory scans your most recent photos and needs faces it can recognise as
+the same person more than once. Two things commonly get in the way: photos
+stored only in iCloud and not on the device are skipped, and photos where the
+face is small, turned away, or in deep shadow may not be detected.</p>
+
+<h2>It split one person into several</h2>
+<p>That's expected — the grouping works by similarity, not identity, so one
+person can appear as two or three. On the People screen, use the menu in the
+top right, choose <strong>Combine People</strong>, select the groups that are
+the same person, and combine them.</p>
+
+<h2>Can I remove the watermark?</h2>
+<p>No. Every video Facetory makes carries a small "Made with Facetory" mark in
+the corner, and there is no way to remove it.</p>
+
+<h2>Why are there ads?</h2>
+<p>They pay for the app. Facetory shows a banner while you work; the ads are
+personalized, and you can decline tracking when asked — you'll still see ads,
+just less relevant ones.</p>
+
+<h2>Which devices are supported?</h2>
+<p>Facetory needs iOS 27 or later, because the on-device face grouping it relies
+on is only available there. On an older system the app will say so rather than
+misbehave.</p>
+
+<footer>
+  ibexware · <a href="/facetory/privacy">Privacy policy</a> ·
+  <a href="/">All apps</a>
+</footer>
+
+</main>
+</body>
+</html>

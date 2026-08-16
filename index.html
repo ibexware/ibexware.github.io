@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ibexware</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --rule: #e3e3e6;
+    --accent: #0a84ff;
+    --panel: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --fg: #f2f2f7;
+      --muted: #9a9aa0;
+      --rule: #2c2c2e;
+      --accent: #4da3ff;
+      --panel: #1c1c1e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 4rem 1.25rem 5rem;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 2.25rem; margin: 0 0 .35rem; letter-spacing: -.03em; }
+  .tagline { color: var(--muted); margin: 0 0 3rem; }
+  .app {
+    display: block;
+    background: var(--panel);
+    border-radius: 16px;
+    padding: 1.25rem 1.4rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  .app h2 { margin: 0 0 .3rem; font-size: 1.25rem; letter-spacing: -.01em; }
+  .app p { margin: 0 0 .75rem; color: var(--muted); }
+  .links a { color: var(--accent); text-decoration: none; font-size: .95rem; }
+  .links span { color: var(--rule); padding: 0 .5rem; }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>ibexware</h1>
+<p class="tagline">iOS apps.</p>
+
+<div class="app">
+  <h2>Facetory</h2>
+  <p>Turns your photos of the same person over time into a face-aligned video
+  you can share. Everything happens on your iPhone — your photos never leave
+  the device.</p>
+  <p class="links">
+    <a href="/facetory/privacy">Privacy policy</a><span>·</span><a href="/facetory/support">Support</a>
+  </p>
+</div>
+
+<footer>
+  <a href="mailto:cherrystoneplace@gmail.com">cherrystoneplace@gmail.com</a>
+</footer>
+
+</main>
+</body>
+</html>
